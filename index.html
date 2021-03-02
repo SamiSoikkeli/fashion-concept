@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>ÅNYO</title>
+	<meta name="author" content="Sami Soikkeli" />
+	<link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/ncw8xrb.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css" />
+	<link rel="stylesheet" type="text/css" href="../css/styles.css" />
+	<script>
+	document.documentElement.className = "js";
+	var supportsCssVars = function() {
+		var e,
+			t = document.createElement("style");
+		return (
+			(t.innerHTML = "root: { --tmp-var: bold; }"),
+			document.head.appendChild(t),
+			(e = !!(
+				window.CSS &&
+				window.CSS.supports &&
+				window.CSS.supports("font-weight", "var(--tmp-var)")
+			)),
+			t.parentNode.removeChild(t),
+			e
+		);
+	};
+	supportsCssVars() ||
+		alert(
+			"Please view this demo in a modern browser that supports CSS Variables."
+		);
+	</script>
+</head>
+
+<body class="loading">
+	<div class="outer">
+		<div class=inner>
+		  <svg class="blob-1" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+		<path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+		</svg>
+		  <svg width="600" class="blob-2" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"><g transform="translate(300, 300)"><path d="M167.9,-192.7C214.5,-161,247.1,-105.1,258.9,-44.7C270.8,15.8,261.8,80.9,231.2,133C200.5,185,148.1,224.1,89.6,244.8C31,265.6,-33.7,268.1,-85.9,245.2C-138.1,222.3,-177.7,173.9,-207.9,120.6C-238.1,67.2,-258.9,9,-253.9,-49.1C-248.8,-107.2,-217.9,-165.1,-171.3,-196.8C-124.7,-228.6,-62.4,-234.3,-0.9000000000000001,-233.3C60.6,-232.3,121.3,-224.5,167.9,-192.7Z" stroke="none" stroke-width="0"></path></g></svg>
+		  <svg class="blob-3" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+		<path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+		</svg>
+		  <div class="circle"></div>
+		  <div id="blob-hover"></div>
+		</div>
+		<div class="background"></div>
+	  </div>
+	<main id="main-01">	
+		<div class="frame">
+			<div class="frame__title-wrap">
+				<h1 class="frame__title">ÅNYO</h1>
+				<p class="frame__tagline">
+					Design & function with a purpose
+				</p>
+			</div>
+			<div class="frame__links">
+				<a href="#">Products</a>
+				<a href="#">Blog</a>
+				<a href="#">
+					<span>Cart</span><span class="cart-total">0</span>
+					
+				  </a>
+			</div>
+			<section id="main-02">
+				<div class="container">
+					
+					<h1>We don’t do fashion, we are fashion.</h1>
+				</div>
+			</section>
+			<a id="tip-scroll" class="frame__tip" href="#app"><p >Scroll to <br /> explore</p></a>
+		</div>
+		<div class="content" id="app">
+			<div class="frame">
+				<!-- the content -->
+				<p id="tip-drag" class="frame__tip">Click &amp; drag</p>
+				<div class="footer">
+					<ul class="footer__ul">
+					  <li><a href="#">Facebook</a></li>
+					  <li><a href="#">Twitter</a></li>
+					  <li><a href="#">Email</a></li>
+					  <li><a href="#">Instagram</a></li>
+					</ul>
+				</div>
+				<a id="tip-top" class="frame__tip" href="#"><p>Top</p></a>
+			</div>
+		</div>
+	</main>
+	<div class="cursor">
+		<div class="cursor__inner cursor__inner--circle"></div>
+		<div class="cursor__inner cursor__inner--dot"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

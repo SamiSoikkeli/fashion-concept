@@ -1,0 +1,23 @@
+{
+  "name": "fashion-showcase",
+  "version": "1.0.0",
+  "description": "Fashion brand landing page concept",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./js/parcel.html --open",
+    "build": "npm run prebuild && parcel build ./js/index.js --public-url ./dist/",
+    "prebuild": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "gsap": "^3.6.0",
+    "locomotive-scroll": "^4.1.0",
+    "popmotion": "^8.6.4",
+    "stats.js": "^0.17.0",
+    "three": "^0.101.1"
+  }
+}
